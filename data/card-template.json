@@ -1,0 +1,40 @@
+{
+  "draft": {
+    "id": "template-default",
+    "title": "Kartu Anggota Digital SIM-KWARCAB",
+    "version": 1,
+    "status": "draft",
+    "updatedAt": "2026-11-04T13:44:09.086Z",
+    "themePreset": "wosm_purple",
+    "gradientStart": "#5D4037",
+    "gradientEnd": "#2D1B15",
+    "textColor": "#FFFFFF",
+    "accentColor": "#FFD700",
+    "fontFamily": "Plus Jakarta Sans",
+    "photoPosition": "right",
+    "fieldLayout": "standard",
+    "showQrFront": true,
+    "showQrBack": true,
+    "showWatermark": true,
+    "logoType": "both"
+  },
+  "published": {
+    "id": "template-default",
+    "title": "Kartu Anggota Digital SIM-KWARCAB",
+    "version": 3,
+    "status": "published",
+    "updatedAt": "2026-11-04T13:44:09.086Z",
+    "themePreset": "wosm_purple",
+    "gradientStart": "#5D4037",
+    "gradientEnd": "#2D1B15",
+    "textColor": "#FFFFFF",
+    "accentColor": "#FFD700",
+    "fontFamily": "Plus Jakarta Sans",
+    "photoPosition": "right",
+    "fieldLayout": "standard",
+    "showQrFront": true,
+    "showQrBack": true,
+    "showWatermark": true,
+    "logoType": "both"
+  }
+}

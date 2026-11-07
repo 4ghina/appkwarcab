@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <circle cx="50" cy="50" r="48" fill="#4B0082" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="50" cy="50" r="44" stroke="#D8B4E2" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <!-- Fleur-de-lis WOSM shape -->
+  <path d="M50 22 C53 32, 57 42, 50 56 C43 42, 47 32, 50 22 Z" fill="#FFFFFF"/>
+  <path d="M50 48 C56 42, 68 40, 68 50 C68 58, 56 60, 50 64 C50 64, 44 60, 32 50 C32 40, 44 42, 50 48 Z" fill="#FFFFFF"/>
+  <path d="M42 66 L58 66 L50 78 Z" fill="#FFFFFF"/>
+  <circle cx="43" cy="46" r="2" fill="#4B0082"/>
+  <circle cx="57" cy="46" r="2" fill="#4B0082"/>
+</svg>

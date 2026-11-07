@@ -1,0 +1,35 @@
+[
+  {
+    "id": "att-ses-1793799849086",
+    "sessionId": "sesi-test-1793799849086",
+    "sessionTitle": "Upacara Pembukaan Raimuna Cabang",
+    "memberNta": "09.22.01.00421",
+    "memberName": "Dimas Arya Pratama",
+    "gudepName": "SMA Negeri 1 Depok",
+    "timestamp": "13.44 WIB",
+    "recordedAt": 1793799849102,
+    "officerName": "Kak Budi Hartono"
+  },
+  {
+    "id": "att-ses-1793799237380",
+    "sessionId": "sesi-test-2-1793799237380",
+    "sessionTitle": "Latihan Gabungan Madya",
+    "memberNta": "09.22.01.00421",
+    "memberName": "Dimas Arya Pratama",
+    "gudepName": "SMA Negeri 1 Depok",
+    "timestamp": "13.33 WIB",
+    "recordedAt": 1793799237380,
+    "officerName": "Kak Budi Hartono"
+  },
+  {
+    "id": "att-ses-1793799237366",
+    "sessionId": "sesi-test-1793799237365",
+    "sessionTitle": "Upacara Pembukaan Raimuna Cabang",
+    "memberNta": "09.22.01.00421",
+    "memberName": "Dimas Arya Pratama",
+    "gudepName": "SMA Negeri 1 Depok",
+    "timestamp": "13.33 WIB",
+    "recordedAt": 1793799237380,
+    "officerName": "Kak Budi Hartono"
+  }
+]

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <circle cx="50" cy="50" r="48" fill="#5D4037" stroke="#F59E0B" stroke-width="3"/>
+  <circle cx="50" cy="50" r="42" fill="#4E342E" stroke="#F59E0B" stroke-width="1" stroke-dasharray="2,2"/>
+  <!-- Tunas Kelapa Scout Silhouette -->
+  <path d="M50 20 C52 28, 56 32, 64 36 C56 38, 54 42, 53 50 C58 48, 64 50, 68 55 C60 56, 55 60, 52 70 C51 76, 49 76, 48 70 C45 60, 40 56, 32 55 C36 50, 42 48, 47 50 C46 42, 44 38, 36 36 C44 32, 48 28, 50 20 Z" fill="#F59E0B"/>
+  <circle cx="50" cy="56" r="3" fill="#5D4037"/>
+</svg>

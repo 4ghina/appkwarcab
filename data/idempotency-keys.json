@@ -1,0 +1,57 @@
+{
+  "test-idem-key-1793647490616": {
+    "createdAt": "2026-11-02T19:24:50.638Z",
+    "meta": {
+      "studentId": "user-penegak-1",
+      "itemId": "sku-bantara-14"
+    }
+  },
+  "idem-student-aldi-transition-sku-terap-1-2026-11-02": {
+    "createdAt": "2026-11-02T19:52:57.466Z",
+    "meta": {
+      "studentId": "student-aldi-transition",
+      "itemId": "sku-terap-1",
+      "itemType": "SKU"
+    }
+  },
+  "idem-pgl-1793649302558": {
+    "createdAt": "2026-11-02T19:55:02.560Z",
+    "meta": {
+      "studentId": "student-aldi-transition",
+      "itemId": "sku-terap-9",
+      "itemType": "SKU"
+    }
+  },
+  "idem-pgl-1793671762586": {
+    "createdAt": "2026-11-03T02:09:22.588Z",
+    "meta": {
+      "studentId": "student-aldi-transition",
+      "itemId": "sku-terap-27",
+      "itemType": "SKU"
+    }
+  },
+  "idem-pgl-1793672670802": {
+    "createdAt": "2026-11-03T02:24:30.804Z",
+    "meta": {
+      "studentId": "student-aldi-transition",
+      "itemId": "sku-terap-23",
+      "itemType": "SKU"
+    }
+  },
+  "idem-pgl-1793702581611": {
+    "createdAt": "2026-11-03T10:43:01.612Z",
+    "meta": {
+      "studentId": "student-aldi-transition",
+      "itemId": "sku-terap-22",
+      "itemType": "SKU"
+    }
+  },
+  "idem-pgl-1793713897837": {
+    "createdAt": "2026-11-03T13:51:37.839Z",
+    "meta": {
+      "studentId": "student-aldi-transition",
+      "itemId": "sku-terap-8",
+      "itemType": "SKU"
+    }
+  }
+}

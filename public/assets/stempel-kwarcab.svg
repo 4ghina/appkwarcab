@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Double circular official stamp -->
+  <circle cx="60" cy="60" r="56" stroke="#2563EB" stroke-width="2.5" stroke-dasharray="6,2" fill="none" opacity="0.85"/>
+  <circle cx="60" cy="60" r="50" stroke="#2563EB" stroke-width="1.5" fill="none" opacity="0.85"/>
+  <!-- Curved text indicator -->
+  <path id="curveTop" d="M 20 60 A 40 40 0 0 1 100 60" fill="none"/>
+  <text font-size="7" font-weight="bold" fill="#2563EB" opacity="0.9" letter-spacing="1">
+    <textPath href="#curveTop" startOffset="50%" text-anchor="middle">
+      KWARTIR CABANG KOTA DEPOK
+    </textPath>
+  </text>
+  <path id="curveBot" d="M 100 60 A 40 40 0 0 1 20 60" fill="none"/>
+  <text font-size="6.5" font-weight="bold" fill="#2563EB" opacity="0.9" letter-spacing="1">
+    <textPath href="#curveBot" startOffset="50%" text-anchor="middle">
+      GERAKAN PRAMUKA
+    </textPath>
+  </text>
+  <!-- Center Star and Tunas -->
+  <circle cx="60" cy="60" r="18" fill="none" stroke="#2563EB" stroke-width="1" opacity="0.85"/>
+  <path d="M60 48 L62 55 L69 55 L63 59 L65 66 L60 62 L55 66 L57 59 L51 55 L58 55 Z" fill="#2563EB" opacity="0.85"/>
+  <text x="60" y="74" font-size="6" font-weight="bold" fill="#2563EB" text-anchor="middle" opacity="0.85">TERAKREDITASI</text>
+</svg>

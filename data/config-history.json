@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "ver-1794025127396",
+    "version": 21,
+    "timestamp": "2026-11-07T04:18:47.396Z",
+    "author": "Super Admin Kwarcab",
+    "summary": "Pembaruan Konfigurasi",
+    "configSnapshot": {
+      "appName": "SIM-KWARCAB",
+      "appShortName": "SIMKWARCAB",
+      "description": "Sistem Informasi Manajemen Kwartir Cabang Gerakan Pramuka Terpadu",
+      "kwarcabName": "Kwartir Cabang Kota Depok",
+      "kwarcabNomor": "09.22",
+      "kwardaName": "Kwartir Daerah Jawa Barat",
+      "motto": "Satyaku Kudarmakan, Darmaku Kubaktikan",
+      "address": "Gedung Pramuka Kwarcab Kota Depok, Balai Kota Depok, Jl. Margonda Raya No. 54, Kec. Pancoran Mas, Kota Depok 16431",
+      "email": "pusinfo@pramukakotadepok.or.id",
+      "phone": "021-7756123",
+      "whatsapp": "0812-1922-0922",
+      "website": "https://pramukakotadepok.or.id",
+      "socials": {
+        "instagram": "@pramukakotadepok",
+        "youtube": "Pramuka Kwarcab Kota Depok",
+        "facebook": "Kwartir Cabang Gerakan Pramuka Kota Depok"
+      },
+      "footerText": "© 2026 Kwartir Cabang Kota Depok Kwartir Daerah Jawa Barat. Seluruh Hak Cipta Dilindungi.",
+      "helpNotice": "Pusat Bantuan & Layanan Administrasi Pramuka Kwarcab: Senin - Jumat 08.00 - 16.00 WIB",
+      "serviceNotice": "Layanan Pengajuan KTA Digital, Her-registrasi Gudep, dan Rekomendasi E-Garuda Tanpa Pungutan Biaya.",
+      "logos": {
+        "primary": "/assets/logo-pramuka.svg",
+        "secondary": "/assets/logo-wosm.svg",
+        "favicon": "/assets/favicon-pramuka.svg",
+        "appIcon": "/assets/icon-pramuka.svg",
+        "stamp": "/assets/stempel-kwarcab.svg",
+        "signature": "/assets/ttd-kakwarcab.svg"
+      },
+      "colors": {
+        "primary": "#5D4037",
+        "primaryHover": "#4E342E",
+        "secondary": "#2E7D32",
+        "accent": "#F59E0B",
+        "background": "#FAF8F5",
+        "surface": "#FFFFFF"
+      },
+      "isDemoMode": true,
+      "activeFeatures": {
+        "garudaTracker": true,
+        "skuGamified": true,
+        "gudepMap": true,
+        "pusdiklatcab": true,
+        "sakaKrida": true,
+        "eventRegistration": true
+      },
+      "sampleDataLoaded": true,
+      "sampleDataHidden": false
+    }
+  },
+  {
+    "id": "ver-1794025127396",
+    "version": 21,
+    "timestamp": "2026-11-07T04:18:47.396Z",
+    "author": "Super Admin Pengujian",
+    "summary": "Uji coba publikasi draf",
+    "configSnapshot": {
+      "appName": "SIM-KWARCAB",
+      "appShortName": "SIMKWARCAB",
+      "description": "Sistem Informasi Manajemen Kwartir Cabang Gerakan Pramuka Terpadu",
+      "kwarcabName": "Kwartir Cabang Kota Depok",
+      "kwarcabNomor": "09.22",
+      "kwardaName": "Kwartir Daerah Jawa Barat",
+      "motto": "Satyaku Kudarmakan, Darmaku Kubaktikan - Draf Baru",
+      "address": "Gedung Pramuka Kwarcab Kota Depok, Balai Kota Depok, Jl. Margonda Raya No. 54, Kec. Pancoran Mas, Kota Depok 16431",
+      "email": "pusinfo@pramukakotadepok.or.id",
+      "phone": "021-7756123",
+      "whatsapp": "0812-1922-0922",
+      "website": "https://pramukakotadepok.or.id",
+      "socials": {
+        "instagram": "@pramukakotadepok",
+        "youtube": "Pramuka Kwarcab Kota Depok",
+        "facebook": "Kwartir Cabang Gerakan Pramuka Kota Depok"
+      },
+      "footerText": "© 2026 Kwartir Cabang Kota Depok Kwartir Daerah Jawa Barat. Seluruh Hak Cipta Dilindungi.",
+      "helpNotice": "Pusat Bantuan & Layanan Administrasi Pramuka Kwarcab: Senin - Jumat 08.00 - 16.00 WIB",
+      "serviceNotice": "Layanan Pengajuan KTA Digital, Her-registrasi Gudep, dan Rekomendasi E-Garuda Tanpa Pungutan Biaya.",
+      "logos": {
+        "primary": "/assets/logo-pramuka.svg",
+        "secondary": "/assets/logo-wosm.svg",
+        "favicon": "/assets/favicon-pramuka.svg",
+        "appIcon": "/assets/icon-pramuka.svg",
+        "stamp": "/assets/stempel-kwarcab.svg",
+        "signature": "/assets/ttd-kakwarcab.svg"
+      },
+      "colors": {
+        "primary": "#5D4037",
+        "primaryHover": "#4E342E",
+        "secondary": "#2E7D32",
+        "accent": "#F59E0B",
+        "background": "#FAF8F5",
+        "surface": "#FFFFFF"
+      },
+      "isDemoMode": true,
+      "activeFeatures": {
+        "garudaTracker": true,
+        "skuGamified": true,
+        "gudepMap": true,
+        "pusdiklatcab": true,
+        "sakaKrida": true,
+        "eventRegistration": true
+      },
+      "sampleDataLoaded": true,
+      "sampleDataHidden": false
+    }
+  },
+  {
+    "id": "ver-1794025127392",
+    "version": 21,
+    "timestamp": "2026-11-07T04:18:47.392Z",
+    "author": "Super Admin Kwarcab",
+    "summary": "Memuat paket data contoh instalasi awal",
+    "configSnapshot": {
+      "appName": "SIM-KWARCAB",
+      "appShortName": "SIMKWARCAB",
+      "description": "Sistem Informasi Manajemen Kwartir Cabang Gerakan Pramuka Terpadu",
+      "kwarcabName": "Kwartir Cabang Kota Depok",
+      "kwarcabNomor": "09.22",
+      "kwardaName": "Kwartir Daerah Jawa Barat",
+      "motto": "Satyaku Kudarmakan, Darmaku Kubaktikan",
+      "address": "Gedung Pramuka Kwarcab Kota Depok, Balai Kota Depok, Jl. Margonda Raya No. 54, Kec. Pancoran Mas, Kota Depok 16431",
+      "email": "pusinfo@pramukakotadepok.or.id",
+      "phone": "021-7756123",
+      "whatsapp": "0812-1922-0922",
+      "website": "https://pramukakotadepok.or.id",
+      "socials": {
+        "instagram": "@pramukakotadepok",
+        "youtube": "Pramuka Kwarcab Kota Depok",
+        "facebook": "Kwartir Cabang Gerakan Pramuka Kota Depok"
+      },
+      "footerText": "© 2026 Kwartir Cabang Kota Depok Kwartir Daerah Jawa Barat. Seluruh Hak Cipta Dilindungi.",
+      "helpNotice": "Pusat Bantuan & Layanan Administrasi Pramuka Kwarcab: Senin - Jumat 08.00 - 16.00 WIB",
+      "serviceNotice": "Layanan Pengajuan KTA Digital, Her-registrasi Gudep, dan Rekomendasi E-Garuda Tanpa Pungutan Biaya.",
+      "logos": {
+        "primary": "/assets/logo-pramuka.svg",
+        "secondary": "/assets/logo-wosm.svg",
+        "favicon": "/assets/favicon-pramuka.svg",
+        "appIcon": "/assets/icon-pramuka.svg",
+        "stamp": "/assets/stempel-kwarcab.svg",
+        "signature": "/assets/ttd-kakwarcab.svg"
+      },
+      "colors": {
+        "primary": "#5D4037",
+        "primaryHover": "#4E342E",
+        "secondary": "#2E7D32",
+        "accent": "#F59E0B",
+        "background": "#FAF8F5",
+        "surface": "#FFFFFF"
+      },
+      "isDemoMode": true,
+      "activeFeatures": {
+        "garudaTracker": true,
+        "skuGamified": true,
+        "gudepMap": true,
+        "pusdiklatcab": true,
+        "sakaKrida": true,
+        "eventRegistration": true
+      },
+      "sampleDataLoaded": true,
+      "sampleDataHidden": false
+    }
+  },
+  {
+    "id": "ver-1794025127391",
+    "version": 21,
+    "timestamp": "2026-11-07T04:18:47.391Z",
+    "author": "Super Admin Kwarcab",
+    "summary": "Pembersihan aman seluruh data contoh (Purge Sample Data)",
+    "configSnapshot": {
+      "appName": "SIM-KWARCAB",
+      "appShortName": "SIMKWARCAB",
+      "description": "Sistem Informasi Manajemen Kwartir Cabang Gerakan Pramuka Terpadu",
+      "kwarcabName": "Kwartir Cabang Kota Depok",
+      "kwarcabNomor": "09.22",
+      "kwardaName": "Kwartir Daerah Jawa Barat",
+      "motto": "Satyaku Kudarmakan, Darmaku Kubaktikan",
+      "address": "Gedung Pramuka Kwarcab Kota Depok, Balai Kota Depok, Jl. Margonda Raya No. 54, Kec. Pancoran Mas, Kota Depok 16431",
+      "email": "pusinfo@pramukakotadepok.or.id",
+      "phone": "021-7756123",
+      "whatsapp": "0812-1922-0922",
+      "website": "https://pramukakotadepok.or.id",
+      "socials": {
+        "instagram": "@pramukakotadepok",
+        "youtube": "Pramuka Kwarcab Kota Depok",
+        "facebook": "Kwartir Cabang Gerakan Pramuka Kota Depok"
+      },
+      "footerText": "© 2026 Kwartir Cabang Kota Depok Kwartir Daerah Jawa Barat. Seluruh Hak Cipta Dilindungi.",
+      "helpNotice": "Pusat Bantuan & Layanan Administrasi Pramuka Kwarcab: Senin - Jumat 08.00 - 16.00 WIB",
+      "serviceNotice": "Layanan Pengajuan KTA Digital, Her-registrasi Gudep, dan Rekomendasi E-Garuda Tanpa Pungutan Biaya.",
+      "logos": {
+        "primary": "/assets/logo-pramuka.svg",
+        "secondary": "/assets/logo-wosm.svg",
+        "favicon": "/assets/favicon-pramuka.svg",
+        "appIcon": "/assets/icon-pramuka.svg",
+        "stamp": "/assets/stempel-kwarcab.svg",
+        "signature": "/assets/ttd-kakwarcab.svg"
+      },
+      "colors": {
+        "primary": "#5D4037",
+        "primaryHover": "#4E342E",
+        "secondary": "#2E7D32",
+        "accent": "#F59E0B",
+        "background": "#FAF8F5",
+        "surface": "#FFFFFF"
+      },
+      "isDemoMode": true,
+      "activeFeatures": {
+        "garudaTracker": true,
+        "skuGamified": true,
+        "gudepMap": true,
+        "pusdiklatcab": true,
+        "sakaKrida": true,
+        "eventRegistration": true
+      },
+      "sampleDataLoaded": false,
+      "sampleDataHidden": false
+    }
+  },
+  {
+    "id": "ver-1794025127385",
+    "version": 21,
+    "timestamp": "2026-11-07T04:18:47.385Z",
+    "author": "Super Admin Kwarcab",
+    "summary": "Menampilkan data contoh",
+    "configSnapshot": {
+      "appName": "SIM-KWARCAB",
+      "appShortName": "SIMKWARCAB",
+      "description": "Sistem Informasi Manajemen Kwartir Cabang Gerakan Pramuka Terpadu",
+      "kwarcabName": "Kwartir Cabang Kota Depok",
+      "kwarcabNomor": "09.22",
+      "kwardaName": "Kwartir Daerah Jawa Barat",
+      "motto": "Satyaku Kudarmakan, Darmaku Kubaktikan",
+      "address": "Gedung Pramuka Kwarcab Kota Depok, Balai Kota Depok, Jl. Margonda Raya No. 54, Kec. Pancoran Mas, Kota Depok 16431",
+      "email": "pusinfo@pramukakotadepok.or.id",
+      "phone": "021-7756123",
+      "whatsapp": "0812-1922-0922",
+      "website": "https://pramukakotadepok.or.id",
+      "socials": {
+        "instagram": "@pramukakotadepok",
+        "youtube": "Pramuka Kwarcab Kota Depok",
+        "facebook": "Kwartir Cabang Gerakan Pramuka Kota Depok"
+      },
+      "footerText": "© 2026 Kwartir Cabang Kota Depok Kwartir Daerah Jawa Barat. Seluruh Hak Cipta Dilindungi.",
+      "helpNotice": "Pusat Bantuan & Layanan Administrasi Pramuka Kwarcab: Senin - Jumat 08.00 - 16.00 WIB",
+      "serviceNotice": "Layanan Pengajuan KTA Digital, Her-registrasi Gudep, dan Rekomendasi E-Garuda Tanpa Pungutan Biaya.",
+      "logos": {
+        "primary": "/assets/logo-pramuka.svg",
+        "secondary": "/assets/logo-wosm.svg",
+        "favicon": "/assets/favicon-pramuka.svg",
+        "appIcon": "/assets/icon-pramuka.svg",
+        "stamp": "/assets/stempel-kwarcab.svg",
+        "signature": "/assets/ttd-kakwarcab.svg"
+      },
+      "colors": {
+        "primary": "#5D4037",
+        "primaryHover": "#4E342E",
+        "secondary": "#2E7D32",
+        "accent": "#F59E0B",
+        "background": "#FAF8F5",
+        "surface": "#FFFFFF"
+      },
+      "isDemoMode": true,
+      "activeFeatures": {
+        "garudaTracker": true,
+        "skuGamified": true,
+        "gudepMap": true,
+        "pusdiklatcab": true,
+        "sakaKrida": true,
+        "eventRegistration": true
+      },
+      "sampleDataLoaded": true,
+      "sampleDataHidden": false
+    }
+  },
+  {
+    "id": "ver-1794025127349",
+    "version": 21,
+    "timestamp": "2026-11-07T04:18:47.349Z",
+    "author": "Super Admin Kwarcab",
+    "summary": "Menyembunyikan data contoh dari publik & statistik",
+    "configSnapshot": {
+      "appName": "SIM-KWARCAB",
+      "appShortName": "SIMKWARCAB",
+      "description": "Sistem Informasi Manajemen Kwartir Cabang Gerakan Pramuka Terpadu",
+      "kwarcabName": "Kwartir Cabang Kota Depok",
+      "kwarcabNomor": "09.22",
+      "kwardaName": "Kwartir Daerah Jawa Barat",
+      "motto": "Satyaku Kudarmakan, Darmaku Kubaktikan",
+      "address": "Gedung Pramuka Kwarcab Kota Depok, Balai Kota Depok, Jl. Margonda Raya No. 54, Kec. Pancoran Mas, Kota Depok 16431",
+      "email": "pusinfo@pramukakotadepok.or.id",
+      "phone": "021-7756123",
+      "whatsapp": "0812-1922-0922",
+      "website": "https://pramukakotadepok.or.id",
+      "socials": {
+        "instagram": "@pramukakotadepok",
+        "youtube": "Pramuka Kwarcab Kota Depok",
+        "facebook": "Kwartir Cabang Gerakan Pramuka Kota Depok"
+      },
+      "footerText": "© 2026 Kwartir Cabang Kota Depok Kwartir Daerah Jawa Barat. Seluruh Hak Cipta Dilindungi.",
+      "helpNotice": "Pusat Bantuan & Layanan Administrasi Pramuka Kwarcab: Senin - Jumat 08.00 - 16.00 WIB",
+      "serviceNotice": "Layanan Pengajuan KTA Digital, Her-registrasi Gudep, dan Rekomendasi E-Garuda Tanpa Pungutan Biaya.",
+      "logos": {
+        "primary": "/assets/logo-pramuka.svg",
+        "secondary": "/assets/logo-wosm.svg",
+        "favicon": "/assets/favicon-pramuka.svg",
+        "appIcon": "/assets/icon-pramuka.svg",
+        "stamp": "/assets/stempel-kwarcab.svg",
+        "signature": "/assets/ttd-kakwarcab.svg"
+      },
+      "colors": {
+        "primary": "#5D4037",
+        "primaryHover": "#4E342E",
+        "secondary": "#2E7D32",
+        "accent": "#F59E0B",
+        "background": "#FAF8F5",
+        "surface": "#FFFFFF"
+      },
+      "isDemoMode": true,
+      "activeFeatures": {
+        "garudaTracker": true,
+        "skuGamified": true,
+        "gudepMap": true,
+        "pusdiklatcab": true,
+        "sakaKrida": true,
+        "eventRegistration": true
+      },
+      "sampleDataLoaded": true,
+      "sampleDataHidden": true
+    }
+  },
+  {
+    "id": "ver-1794025127346",
+    "version": 21,
+    "timestamp": "2026-11-07T04:18:47.346Z",
+    "author": "Super Admin Kwarcab",
+    "summary": "Memuat paket data contoh instalasi awal",
+    "configSnapshot": {
+      "appName": "SIM-KWARCAB",
+      "appShortName": "SIMKWARCAB",
+      "description": "Sistem Informasi Manajemen Kwartir Cabang Gerakan Pramuka Terpadu",
+      "kwarcabName": "Kwartir Cabang Kota Depok",
+      "kwarcabNomor": "09.22",
+      "kwardaName": "Kwartir Daerah Jawa Barat",
+      "motto": "Satyaku Kudarmakan, Darmaku Kubaktikan",
+      "address": "Gedung Pramuka Kwarcab Kota Depok, Balai Kota Depok, Jl. Margonda Raya No. 54, Kec. Pancoran Mas, Kota Depok 16431",
+      "email": "pusinfo@pramukakotadepok.or.id",
+      "phone": "021-7756123",
+      "whatsapp": "0812-1922-0922",
+      "website": "https://pramukakotadepok.or.id",
+      "socials": {
+        "instagram": "@pramukakotadepok",
+        "youtube": "Pramuka Kwarcab Kota Depok",
+        "facebook": "Kwartir Cabang Gerakan Pramuka Kota Depok"
+      },
+      "footerText": "© 2026 Kwartir Cabang Kota Depok Kwartir Daerah Jawa Barat. Seluruh Hak Cipta Dilindungi.",
+      "helpNotice": "Pusat Bantuan & Layanan Administrasi Pramuka Kwarcab: Senin - Jumat 08.00 - 16.00 WIB",
+      "serviceNotice": "Layanan Pengajuan KTA Digital, Her-registrasi Gudep, dan Rekomendasi E-Garuda Tanpa Pungutan Biaya.",
+      "logos": {
+        "primary": "/assets/logo-pramuka.svg",
+        "secondary": "/assets/logo-wosm.svg",
+        "favicon": "/assets/favicon-pramuka.svg",
+        "appIcon": "/assets/icon-pramuka.svg",
+        "stamp": "/assets/stempel-kwarcab.svg",
+        "signature": "/assets/ttd-kakwarcab.svg"
+      },
+      "colors": {
+        "primary": "#5D4037",
+        "primaryHover": "#4E342E",
+        "secondary": "#2E7D32",
+        "accent": "#F59E0B",
+        "background": "#FAF8F5",
+        "surface": "#FFFFFF"
+      },
+      "isDemoMode": true,
+      "activeFeatures": {
+        "garudaTracker": true,
+        "skuGamified": true,
+        "gudepMap": true,
+        "pusdiklatcab": true,
+        "sakaKrida": true,
+        "eventRegistration": true
+      },
+      "sampleDataLoaded": true,
+      "sampleDataHidden": false
+    }
+  },
+  {
+    "id": "ver-1794024111045",
+    "version": 21,
+    "timestamp": "2026-11-07T04:01:51.045Z",
+    "author": "Super Admin Kwarcab",
+    "summary": "Pembaruan Konfigurasi",
+    "configSnapshot": {
+      "appName": "SIM-KWARCAB",
+      "appShortName": "SIMKWARCAB",
+      "description": "Sistem Informasi Manajemen Kwartir Cabang Gerakan Pramuka Terpadu",
+      "kwarcabName": "Kwartir Cabang Kota Depok",
+      "kwarcabNomor": "09.22",
+      "kwardaName": "Kwartir Daerah Jawa Barat",
+      "motto": "Satyaku Kudarmakan, Darmaku Kubaktikan",
+      "address": "Gedung Pramuka Kwarcab Kota Depok, Balai Kota Depok, Jl. Margonda Raya No. 54, Kec. Pancoran Mas, Kota Depok 16431",
+      "email": "pusinfo@pramukakotadepok.or.id",
+      "phone": "021-7756123",
+      "whatsapp": "0812-1922-0922",
+      "website": "https://pramukakotadepok.or.id",
+      "socials": {
+        "instagram": "@pramukakotadepok",
+        "youtube": "Pramuka Kwarcab Kota Depok",
+        "facebook": "Kwartir Cabang Gerakan Pramuka Kota Depok"
+      },
+      "footerText": "© 2026 Kwartir Cabang Kota Depok Kwartir Daerah Jawa Barat. Seluruh Hak Cipta Dilindungi.",
+      "helpNotice": "Pusat Bantuan & Layanan Administrasi Pramuka Kwarcab: Senin - Jumat 08.00 - 16.00 WIB",
+      "serviceNotice": "Layanan Pengajuan KTA Digital, Her-registrasi Gudep, dan Rekomendasi E-Garuda Tanpa Pungutan Biaya.",
+      "logos": {
+        "primary": "/assets/logo-pramuka.svg",
+        "secondary": "/assets/logo-wosm.svg",
+        "favicon": "/assets/favicon-pramuka.svg",
+        "appIcon": "/assets/icon-pramuka.svg",
+        "stamp": "/assets/stempel-kwarcab.svg",
+        "signature": "/assets/ttd-kakwarcab.svg"
+      },
+      "colors": {
+        "primary": "#5D4037",
+        "primaryHover": "#4E342E",
+        "secondary": "#2E7D32",
+        "accent": "#F59E0B",
+        "background": "#FAF8F5",
+        "surface": "#FFFFFF"
+      },
+      "isDemoMode": true,
+      "activeFeatures": {
+        "garudaTracker": true,
+        "skuGamified": true,
+        "gudepMap": true,
+        "pusdiklatcab": true,
+        "sakaKrida": true,
+        "eventRegistration": true
+      },
+      "sampleDataLoaded": true,
+      "sampleDataHidden": false
+    }
+  },
+  {
+    "id": "ver-1794024111044",
+    "version": 21,
+    "timestamp": "2026-11-07T04:01:51.044Z",
+    "author": "Super Admin Pengujian",
+    "summary": "Uji coba publikasi draf",
+    "configSnapshot": {
+      "appName": "SIM-KWARCAB",
+      "appShortName": "SIMKWARCAB",
+      "description": "Sistem Informasi Manajemen Kwartir Cabang Gerakan Pramuka Terpadu",
+      "kwarcabName": "Kwartir Cabang Kota Depok",
+      "kwarcabNomor": "09.22",
+      "kwardaName": "Kwartir Daerah Jawa Barat",
+      "motto": "Satyaku Kudarmakan, Darmaku Kubaktikan - Draf Baru",
+      "address": "Gedung Pramuka Kwarcab Kota Depok, Balai Kota Depok, Jl. Margonda Raya No. 54, Kec. Pancoran Mas, Kota Depok 16431",
+      "email": "pusinfo@pramukakotadepok.or.id",
+      "phone": "021-7756123",
+      "whatsapp": "0812-1922-0922",
+      "website": "https://pramukakotadepok.or.id",
+      "socials": {
+        "instagram": "@pramukakotadepok",
+        "youtube": "Pramuka Kwarcab Kota Depok",
+        "facebook": "Kwartir Cabang Gerakan Pramuka Kota Depok"
+      },
+      "footerText": "© 2026 Kwartir Cabang Kota Depok Kwartir Daerah Jawa Barat. Seluruh Hak Cipta Dilindungi.",
+      "helpNotice": "Pusat Bantuan & Layanan Administrasi Pramuka Kwarcab: Senin - Jumat 08.00 - 16.00 WIB",
+      "serviceNotice": "Layanan Pengajuan KTA Digital, Her-registrasi Gudep, dan Rekomendasi E-Garuda Tanpa Pungutan Biaya.",
+      "logos": {
+        "primary": "/assets/logo-pramuka.svg",
+        "secondary": "/assets/logo-wosm.svg",
+        "favicon": "/assets/favicon-pramuka.svg",
+        "appIcon": "/assets/icon-pramuka.svg",
+        "stamp": "/assets/stempel-kwarcab.svg",
+        "signature": "/assets/ttd-kakwarcab.svg"
+      },
+      "colors": {
+        "primary": "#5D4037",
+        "primaryHover": "#4E342E",
+        "secondary": "#2E7D32",
+        "accent": "#F59E0B",
+        "background": "#FAF8F5",
+        "surface": "#FFFFFF"
+      },
+      "isDemoMode": true,
+      "activeFeatures": {
+        "garudaTracker": true,
+        "skuGamified": true,
+        "gudepMap": true,
+        "pusdiklatcab": true,
+        "sakaKrida": true,
+        "eventRegistration": true
+      },
+      "sampleDataLoaded": true,
+      "sampleDataHidden": false
+    }
+  },
+  {
+    "id": "ver-1794024111039",
+    "version": 20,
+    "timestamp": "2026-11-07T04:01:51.039Z",
+    "author": "Super Admin Kwarcab",
+    "summary": "Memuat paket data contoh instalasi awal",
+    "configSnapshot": {
+      "appName": "SIM-KWARCAB",
+      "appShortName": "SIMKWARCAB",
+      "description": "Sistem Informasi Manajemen Kwartir Cabang Gerakan Pramuka Terpadu",
+      "kwarcabName": "Kwartir Cabang Kota Depok",
+      "kwarcabNomor": "09.22",
+      "kwardaName": "Kwartir Daerah Jawa Barat",
+      "motto": "Satyaku Kudarmakan, Darmaku Kubaktikan",
+      "address": "Gedung Pramuka Kwarcab Kota Depok, Balai Kota Depok, Jl. Margonda Raya No. 54, Kec. Pancoran Mas, Kota Depok 16431",
+      "email": "pusinfo@pramukakotadepok.or.id",
+      "phone": "021-7756123",
+      "whatsapp": "0812-1922-0922",
+      "website": "https://pramukakotadepok.or.id",
+      "socials": {
+        "instagram": "@pramukakotadepok",
+        "youtube": "Pramuka Kwarcab Kota Depok",
+        "facebook": "Kwartir Cabang Gerakan Pramuka Kota Depok"
+      },
+      "footerText": "© 2026 Kwartir Cabang Kota Depok Kwartir Daerah Jawa Barat. Seluruh Hak Cipta Dilindungi.",
+      "helpNotice": "Pusat Bantuan & Layanan Administrasi Pramuka Kwarcab: Senin - Jumat 08.00 - 16.00 WIB",
+      "serviceNotice": "Layanan Pengajuan KTA Digital, Her-registrasi Gudep, dan Rekomendasi E-Garuda Tanpa Pungutan Biaya.",
+      "logos": {
+        "primary": "/assets/logo-pramuka.svg",
+        "secondary": "/assets/logo-wosm.svg",
+        "favicon": "/assets/favicon-pramuka.svg",
+        "appIcon": "/assets/icon-pramuka.svg",
+        "stamp": "/assets/stempel-kwarcab.svg",
+        "signature": "/assets/ttd-kakwarcab.svg"
+      },
+      "colors": {
+        "primary": "#5D4037",
+        "primaryHover": "#4E342E",
+        "secondary": "#2E7D32",
+        "accent": "#F59E0B",
+        "background": "#FAF8F5",
+        "surface": "#FFFFFF"
+      },
+      "isDemoMode": true,
+      "activeFeatures": {
+        "garudaTracker": true,
+        "skuGamified": true,
+        "gudepMap": true,
+        "pusdiklatcab": true,
+        "sakaKrida": true,
+        "eventRegistration": true
+      },
+      "sampleDataLoaded": true,
+      "sampleDataHidden": false
+    }
+  },
+  {
+    "id": "ver-1794024111038",
+    "version": 19,
+    "timestamp": "2026-11-07T04:01:51.038Z",
+    "author": "Super Admin Kwarcab",
+    "summary": "Pembersihan aman seluruh data contoh (Purge Sample Data)",
+    "configSnapshot": {
+      "appName": "SIM-KWARCAB",
+      "appShortName": "SIMKWARCAB",
+      "description": "Sistem Informasi Manajemen Kwartir Cabang Gerakan Pramuka Terpadu",
+      "kwarcabName": "Kwartir Cabang Kota Depok",
+      "kwarcabNomor": "09.22",
+      "kwardaName": "Kwartir Daerah Jawa Barat",
+      "motto": "Satyaku Kudarmakan, Darmaku Kubaktikan",
+      "address": "Gedung Pramuka Kwarcab Kota Depok, Balai Kota Depok, Jl. Margonda Raya No. 54, Kec. Pancoran Mas, Kota Depok 16431",
+      "email": "pusinfo@pramukakotadepok.or.id",
+      "phone": "021-7756123",
+      "whatsapp": "0812-1922-0922",
+      "website": "https://pramukakotadepok.or.id",
+      "socials": {
+        "instagram": "@pramukakotadepok",
+        "youtube": "Pramuka Kwarcab Kota Depok",
+        "facebook": "Kwartir Cabang Gerakan Pramuka Kota Depok"
+      },
+      "footerText": "© 2026 Kwartir Cabang Kota Depok Kwartir Daerah Jawa Barat. Seluruh Hak Cipta Dilindungi.",
+      "helpNotice": "Pusat Bantuan & Layanan Administrasi Pramuka Kwarcab: Senin - Jumat 08.00 - 16.00 WIB",
+      "serviceNotice": "Layanan Pengajuan KTA Digital, Her-registrasi Gudep, dan Rekomendasi E-Garuda Tanpa Pungutan Biaya.",
+      "logos": {
+        "primary": "/assets/logo-pramuka.svg",
+        "secondary": "/assets/logo-wosm.svg",
+        "favicon": "/assets/favicon-pramuka.svg",
+        "appIcon": "/assets/icon-pramuka.svg",
+        "stamp": "/assets/stempel-kwarcab.svg",
+        "signature": "/assets/ttd-kakwarcab.svg"
+      },
+      "colors": {
+        "primary": "#5D4037",
+        "primaryHover": "#4E342E",
+        "secondary": "#2E7D32",
+        "accent": "#F59E0B",
+        "background": "#FAF8F5",
+        "surface": "#FFFFFF"
+      },
+      "isDemoMode": true,
+      "activeFeatures": {
+        "garudaTracker": true,
+        "skuGamified": true,
+        "gudepMap": true,
+        "pusdiklatcab": true,
+        "sakaKrida": true,
+        "eventRegistration": true
+      },
+      "sampleDataLoaded": false,
+      "sampleDataHidden": false
+    }
+  },
+  {
+    "id": "ver-1794024111034",
+    "version": 18,
+    "timestamp": "2026-11-07T04:01:51.034Z",
+    "author": "Super Admin Kwarcab",
+    "summary": "Menampilkan data contoh",
+    "configSnapshot": {
+      "appName": "SIM-KWARCAB",
+      "appShortName": "SIMKWARCAB",
+      "description": "Sistem Informasi Manajemen Kwartir Cabang Gerakan Pramuka Terpadu",
+      "kwarcabName": "Kwartir Cabang Kota Depok",
+      "kwarcabNomor": "09.22",
+      "kwardaName": "Kwartir Daerah Jawa Barat",
+      "motto": "Satyaku Kudarmakan, Darmaku Kubaktikan",
+      "address": "Gedung Pramuka Kwarcab Kota Depok, Balai Kota Depok, Jl. Margonda Raya No. 54, Kec. Pancoran Mas, Kota Depok 16431",
+      "email": "pusinfo@pramukakotadepok.or.id",
+      "phone": "021-7756123",
+      "whatsapp": "0812-1922-0922",
+      "website": "https://pramukakotadepok.or.id",
+      "socials": {
+        "instagram": "@pramukakotadepok",
+        "youtube": "Pramuka Kwarcab Kota Depok",
+        "facebook": "Kwartir Cabang Gerakan Pramuka Kota Depok"
+      },
+      "footerText": "© 2026 Kwartir Cabang Kota Depok Kwartir Daerah Jawa Barat. Seluruh Hak Cipta Dilindungi.",
+      "helpNotice": "Pusat Bantuan & Layanan Administrasi Pramuka Kwarcab: Senin - Jumat 08.00 - 16.00 WIB",
+      "serviceNotice": "Layanan Pengajuan KTA Digital, Her-registrasi Gudep, dan Rekomendasi E-Garuda Tanpa Pungutan Biaya.",
+      "logos": {
+        "primary": "/assets/logo-pramuka.svg",
+        "secondary": "/assets/logo-wosm.svg",
+        "favicon": "/assets/favicon-pramuka.svg",
+        "appIcon": "/assets/icon-pramuka.svg",
+        "stamp": "/assets/stempel-kwarcab.svg",
+        "signature": "/assets/ttd-kakwarcab.svg"
+      },
+      "colors": {
+        "primary": "#5D4037",
+        "primaryHover": "#4E342E",
+        "secondary": "#2E7D32",
+        "accent": "#F59E0B",
+        "background": "#FAF8F5",
+        "surface": "#FFFFFF"
+      },
+      "isDemoMode": true,
+      "activeFeatures": {
+        "garudaTracker": true,
+        "skuGamified": true,
+        "gudepMap": true,
+        "pusdiklatcab": true,
+        "sakaKrida": true,
+        "eventRegistration": true
+      },
+      "sampleDataLoaded": true,
+      "sampleDataHidden": false
+    }
+  },
+  {
+    "id": "ver-1794024110991",
+    "version": 17,
+    "timestamp": "2026-11-07T04:01:50.991Z",
+    "author": "Super Admin Kwarcab",
+    "summary": "Menyembunyikan data contoh dari publik & statistik",
+    "configSnapshot": {
+      "appName": "SIM-KWARCAB",
+      "appShortName": "SIMKWARCAB",
+      "description": "Sistem Informasi Manajemen Kwartir Cabang Gerakan Pramuka Terpadu",
+      "kwarcabName": "Kwartir Cabang Kota Depok",
+      "kwarcabNomor": "09.22",
+      "kwardaName": "Kwartir Daerah Jawa Barat",
+      "motto": "Satyaku Kudarmakan, Darmaku Kubaktikan",
+      "address": "Gedung Pramuka Kwarcab Kota Depok, Balai Kota Depok, Jl. Margonda Raya No. 54, Kec. Pancoran Mas, Kota Depok 16431",
+      "email": "pusinfo@pramukakotadepok.or.id",
+      "phone": "021-7756123",
+      "whatsapp": "0812-1922-0922",
+      "website": "https://pramukakotadepok.or.id",
+      "socials": {
+        "instagram": "@pramukakotadepok",
+        "youtube": "Pramuka Kwarcab Kota Depok",
+        "facebook": "Kwartir Cabang Gerakan Pramuka Kota Depok"
+      },
+      "footerText": "© 2026 Kwartir Cabang Kota Depok Kwartir Daerah Jawa Barat. Seluruh Hak Cipta Dilindungi.",
+      "helpNotice": "Pusat Bantuan & Layanan Administrasi Pramuka Kwarcab: Senin - Jumat 08.00 - 16.00 WIB",
+      "serviceNotice": "Layanan Pengajuan KTA Digital, Her-registrasi Gudep, dan Rekomendasi E-Garuda Tanpa Pungutan Biaya.",
+      "logos": {
+        "primary": "/assets/logo-pramuka.svg",
+        "secondary": "/assets/logo-wosm.svg",
+        "favicon": "/assets/favicon-pramuka.svg",
+        "appIcon": "/assets/icon-pramuka.svg",
+        "stamp": "/assets/stempel-kwarcab.svg",
+        "signature": "/assets/ttd-kakwarcab.svg"
+      },
+      "colors": {
+        "primary": "#5D4037",
+        "primaryHover": "#4E342E",
+        "secondary": "#2E7D32",
+        "accent": "#F59E0B",
+        "background": "#FAF8F5",
+        "surface": "#FFFFFF"
+      },
+      "isDemoMode": true,
+      "activeFeatures": {
+        "garudaTracker": true,
+        "skuGamified": true,
+        "gudepMap": true,
+        "pusdiklatcab": true,
+        "sakaKrida": true,
+        "eventRegistration": true
+      },
+      "sampleDataLoaded": true,
+      "sampleDataHidden": true
+    }
+  },
+  {
+    "id": "ver-1794024110987",
+    "version": 16,
+    "timestamp": "2026-11-07T04:01:50.987Z",
+    "author": "Super Admin Kwarcab",
+    "summary": "Memuat paket data contoh instalasi awal",
+    "configSnapshot": {
+      "appName": "SIM-KWARCAB",
+      "appShortName": "SIMKWARCAB",
+      "description": "Sistem Informasi Manajemen Kwartir Cabang Gerakan Pramuka Terpadu",
+      "kwarcabName": "Kwartir Cabang Kota Depok",
+      "kwarcabNomor": "09.22",
+      "kwardaName": "Kwartir Daerah Jawa Barat",
+      "motto": "Satyaku Kudarmakan, Darmaku Kubaktikan",
+      "address": "Gedung Pramuka Kwarcab Kota Depok, Balai Kota Depok, Jl. Margonda Raya No. 54, Kec. Pancoran Mas, Kota Depok 16431",
+      "email": "pusinfo@pramukakotadepok.or.id",
+      "phone": "021-7756123",
+      "whatsapp": "0812-1922-0922",
+      "website": "https://pramukakotadepok.or.id",
+      "socials": {
+        "instagram": "@pramukakotadepok",
+        "youtube": "Pramuka Kwarcab Kota Depok",
+        "facebook": "Kwartir Cabang Gerakan Pramuka Kota Depok"
+      },
+      "footerText": "© 2026 Kwartir Cabang Kota Depok Kwartir Daerah Jawa Barat. Seluruh Hak Cipta Dilindungi.",
+      "helpNotice": "Pusat Bantuan & Layanan Administrasi Pramuka Kwarcab: Senin - Jumat 08.00 - 16.00 WIB",
+      "serviceNotice": "Layanan Pengajuan KTA Digital, Her-registrasi Gudep, dan Rekomendasi E-Garuda Tanpa Pungutan Biaya.",
+      "logos": {
+        "primary": "/assets/logo-pramuka.svg",
+        "secondary": "/assets/logo-wosm.svg",
+        "favicon": "/assets/favicon-pramuka.svg",
+        "appIcon": "/assets/icon-pramuka.svg",
+        "stamp": "/assets/stempel-kwarcab.svg",
+        "signature": "/assets/ttd-kakwarcab.svg"
+      },
+      "colors": {
+        "primary": "#5D4037",
+        "primaryHover": "#4E342E",
+        "secondary": "#2E7D32",
+        "accent": "#F59E0B",
+        "background": "#FAF8F5",
+        "surface": "#FFFFFF"
+      },
+      "isDemoMode": true,
+      "activeFeatures": {
+        "garudaTracker": true,
+        "skuGamified": true,
+        "gudepMap": true,
+        "pusdiklatcab": true,
+        "sakaKrida": true,
+        "eventRegistration": true
+      },
+      "sampleDataLoaded": true,
+      "sampleDataHidden": false
+    }
+  },
+  {
+    "id": "ver-1794023898450",
+    "version": 15,
+    "timestamp": "2026-11-07T03:58:18.451Z",
+    "author": "Super Admin Kwarcab",
+    "summary": "Pembaruan Konfigurasi",
+    "configSnapshot": {
+      "appName": "SIM-KWARCAB",
+      "appShortName": "SIMKWARCAB",
+      "description": "Sistem Informasi Manajemen Kwartir Cabang Gerakan Pramuka Terpadu",
+      "kwarcabName": "Kwartir Cabang Kota Depok",
+      "kwarcabNomor": "09.22",
+      "kwardaName": "Kwartir Daerah Jawa Barat",
+      "motto": "Satyaku Kudarmakan, Darmaku Kubaktikan",
+      "address": "Gedung Pramuka Kwarcab Kota Depok, Balai Kota Depok, Jl. Margonda Raya No. 54, Kec. Pancoran Mas, Kota Depok 16431",
+      "email": "pusinfo@pramukakotadepok.or.id",
+      "phone": "021-7756123",
+      "whatsapp": "0812-1922-0922",
+      "website": "https://pramukakotadepok.or.id",
+      "socials": {
+        "instagram": "@pramukakotadepok",
+        "youtube": "Pramuka Kwarcab Kota Depok",
+        "facebook": "Kwartir Cabang Gerakan Pramuka Kota Depok"
+      },
+      "footerText": "© 2026 Kwartir Cabang Kota Depok Kwartir Daerah Jawa Barat. Seluruh Hak Cipta Dilindungi.",
+      "helpNotice": "Pusat Bantuan & Layanan Administrasi Pramuka Kwarcab: Senin - Jumat 08.00 - 16.00 WIB",
+      "serviceNotice": "Layanan Pengajuan KTA Digital, Her-registrasi Gudep, dan Rekomendasi E-Garuda Tanpa Pungutan Biaya.",
+      "logos": {
+        "primary": "/assets/logo-pramuka.svg",
+        "secondary": "/assets/logo-wosm.svg",
+        "favicon": "/assets/favicon-pramuka.svg",
+        "appIcon": "/assets/icon-pramuka.svg",
+        "stamp": "/assets/stempel-kwarcab.svg",
+        "signature": "/assets/ttd-kakwarcab.svg"
+      },
+      "colors": {
+        "primary": "#5D4037",
+        "primaryHover": "#4E342E",
+        "secondary": "#2E7D32",
+        "accent": "#F59E0B",
+        "background": "#FAF8F5",
+        "surface": "#FFFFFF"
+      },
+      "isDemoMode": true,
+      "activeFeatures": {
+        "garudaTracker": true,
+        "skuGamified": true,
+        "gudepMap": true,
+        "pusdiklatcab": true,
+        "sakaKrida": true,
+        "eventRegistration": true
+      },
+      "sampleDataLoaded": true,
+      "sampleDataHidden": false
+    }
+  },
+  {
+    "id": "ver-1794023898447",
+    "version": 14,
+    "timestamp": "2026-11-07T03:58:18.447Z",
+    "author": "Super Admin Pengujian",
+    "summary": "Uji coba publikasi draf",
+    "configSnapshot": {
+      "appName": "SIM-KWARCAB",
+      "appShortName": "SIMKWARCAB",
+      "description": "Sistem Informasi Manajemen Kwartir Cabang Gerakan Pramuka Terpadu",
+      "kwarcabName": "Kwartir Cabang Kota Depok",
+      "kwarcabNomor": "09.22",
+      "kwardaName": "Kwartir Daerah Jawa Barat",
+      "motto": "Satyaku Kudarmakan, Darmaku Kubaktikan - Draf Baru",
+      "address": "Gedung Pramuka Kwarcab Kota Depok, Balai Kota Depok, Jl. Margonda Raya No. 54, Kec. Pancoran Mas, Kota Depok 16431",
+      "email": "pusinfo@pramukakotadepok.or.id",
+      "phone": "021-7756123",
+      "whatsapp": "0812-1922-0922",
+      "website": "https://pramukakotadepok.or.id",
+      "socials": {
+        "instagram": "@pramukakotadepok",
+        "youtube": "Pramuka Kwarcab Kota Depok",
+        "facebook": "Kwartir Cabang Gerakan Pramuka Kota Depok"
+      },
+      "footerText": "© 2026 Kwartir Cabang Kota Depok Kwartir Daerah Jawa Barat. Seluruh Hak Cipta Dilindungi.",
+      "helpNotice": "Pusat Bantuan & Layanan Administrasi Pramuka Kwarcab: Senin - Jumat 08.00 - 16.00 WIB",
+      "serviceNotice": "Layanan Pengajuan KTA Digital, Her-registrasi Gudep, dan Rekomendasi E-Garuda Tanpa Pungutan Biaya.",
+      "logos": {
+        "primary": "/assets/logo-pramuka.svg",
+        "secondary": "/assets/logo-wosm.svg",
+        "favicon": "/assets/favicon-pramuka.svg",
+        "appIcon": "/assets/icon-pramuka.svg",
+        "stamp": "/assets/stempel-kwarcab.svg",
+        "signature": "/assets/ttd-kakwarcab.svg"
+      },
+      "colors": {
+        "primary": "#5D4037",
+        "primaryHover": "#4E342E",
+        "secondary": "#2E7D32",
+        "accent": "#F59E0B",
+        "background": "#FAF8F5",
+        "surface": "#FFFFFF"
+      },
+      "isDemoMode": true,
+      "activeFeatures": {
+        "garudaTracker": true,
+        "skuGamified": true,
+        "gudepMap": true,
+        "pusdiklatcab": true,
+        "sakaKrida": true,
+        "eventRegistration": true
+      },
+      "sampleDataLoaded": true,
+      "sampleDataHidden": false
+    }
+  },
+  {
+    "id": "ver-1794023898438",
+    "version": 13,
+    "timestamp": "2026-11-07T03:58:18.438Z",
+    "author": "Super Admin Kwarcab",
+    "summary": "Memuat paket data contoh instalasi awal",
+    "configSnapshot": {
+      "appName": "SIM-KWARCAB",
+      "appShortName": "SIMKWARCAB",
+      "description": "Sistem Informasi Manajemen Kwartir Cabang Gerakan Pramuka Terpadu",
+      "kwarcabName": "Kwartir Cabang Kota Depok",
+      "kwarcabNomor": "09.22",
+      "kwardaName": "Kwartir Daerah Jawa Barat",
+      "motto": "Satyaku Kudarmakan, Darmaku Kubaktikan",
+      "address": "Gedung Pramuka Kwarcab Kota Depok, Balai Kota Depok, Jl. Margonda Raya No. 54, Kec. Pancoran Mas, Kota Depok 16431",
+      "email": "pusinfo@pramukakotadepok.or.id",
+      "phone": "021-7756123",
+      "whatsapp": "0812-1922-0922",
+      "website": "https://pramukakotadepok.or.id",
+      "socials": {
+        "instagram": "@pramukakotadepok",
+        "youtube": "Pramuka Kwarcab Kota Depok",
+        "facebook": "Kwartir Cabang Gerakan Pramuka Kota Depok"
+      },
+      "footerText": "© 2026 Kwartir Cabang Kota Depok Kwartir Daerah Jawa Barat. Seluruh Hak Cipta Dilindungi.",
+      "helpNotice": "Pusat Bantuan & Layanan Administrasi Pramuka Kwarcab: Senin - Jumat 08.00 - 16.00 WIB",
+      "serviceNotice": "Layanan Pengajuan KTA Digital, Her-registrasi Gudep, dan Rekomendasi E-Garuda Tanpa Pungutan Biaya.",
+      "logos": {
+        "primary": "/assets/logo-pramuka.svg",
+        "secondary": "/assets/logo-wosm.svg",
+        "favicon": "/assets/favicon-pramuka.svg",
+        "appIcon": "/assets/icon-pramuka.svg",
+        "stamp": "/assets/stempel-kwarcab.svg",
+        "signature": "/assets/ttd-kakwarcab.svg"
+      },
+      "colors": {
+        "primary": "#5D4037",
+        "primaryHover": "#4E342E",
+        "secondary": "#2E7D32",
+        "accent": "#F59E0B",
+        "background": "#FAF8F5",
+        "surface": "#FFFFFF"
+      },
+      "isDemoMode": true,
+      "activeFeatures": {
+        "garudaTracker": true,
+        "skuGamified": true,
+        "gudepMap": true,
+        "pusdiklatcab": true,
+        "sakaKrida": true,
+        "eventRegistration": true
+      },
+      "sampleDataLoaded": true,
+      "sampleDataHidden": false
+    }
+  },
+  {
+    "id": "ver-1794023898437",
+    "version": 12,
+    "timestamp": "2026-11-07T03:58:18.437Z",
+    "author": "Super Admin Kwarcab",
+    "summary": "Pembersihan aman seluruh data contoh (Purge Sample Data)",
+    "configSnapshot": {
+      "appName": "SIM-KWARCAB",
+      "appShortName": "SIMKWARCAB",
+      "description": "Sistem Informasi Manajemen Kwartir Cabang Gerakan Pramuka Terpadu",
+      "kwarcabName": "Kwartir Cabang Kota Depok",
+      "kwarcabNomor": "09.22",
+      "kwardaName": "Kwartir Daerah Jawa Barat",
+      "motto": "Satyaku Kudarmakan, Darmaku Kubaktikan",
+      "address": "Gedung Pramuka Kwarcab Kota Depok, Balai Kota Depok, Jl. Margonda Raya No. 54, Kec. Pancoran Mas, Kota Depok 16431",
+      "email": "pusinfo@pramukakotadepok.or.id",
+      "phone": "021-7756123",
+      "whatsapp": "0812-1922-0922",
+      "website": "https://pramukakotadepok.or.id",
+      "socials": {
+        "instagram": "@pramukakotadepok",
+        "youtube": "Pramuka Kwarcab Kota Depok",
+        "facebook": "Kwartir Cabang Gerakan Pramuka Kota Depok"
+      },
+      "footerText": "© 2026 Kwartir Cabang Kota Depok Kwartir Daerah Jawa Barat. Seluruh Hak Cipta Dilindungi.",
+      "helpNotice": "Pusat Bantuan & Layanan Administrasi Pramuka Kwarcab: Senin - Jumat 08.00 - 16.00 WIB",
+      "serviceNotice": "Layanan Pengajuan KTA Digital, Her-registrasi Gudep, dan Rekomendasi E-Garuda Tanpa Pungutan Biaya.",
+      "logos": {
+        "primary": "/assets/logo-pramuka.svg",
+        "secondary": "/assets/logo-wosm.svg",
+        "favicon": "/assets/favicon-pramuka.svg",
+        "appIcon": "/assets/icon-pramuka.svg",
+        "stamp": "/assets/stempel-kwarcab.svg",
+        "signature": "/assets/ttd-kakwarcab.svg"
+      },
+      "colors": {
+        "primary": "#5D4037",
+        "primaryHover": "#4E342E",
+        "secondary": "#2E7D32",
+        "accent": "#F59E0B",
+        "background": "#FAF8F5",
+        "surface": "#FFFFFF"
+      },
+      "isDemoMode": true,
+      "activeFeatures": {
+        "garudaTracker": true,
+        "skuGamified": true,
+        "gudepMap": true,
+        "pusdiklatcab": true,
+        "sakaKrida": true,
+        "eventRegistration": true
+      },
+      "sampleDataLoaded": false,
+      "sampleDataHidden": false
+    }
+  },
+  {
+    "id": "ver-1794023898433",
+    "version": 11,
+    "timestamp": "2026-11-07T03:58:18.433Z",
+    "author": "Super Admin Kwarcab",
+    "summary": "Menampilkan data contoh",
+    "configSnapshot": {
+      "appName": "SIM-KWARCAB",
+      "appShortName": "SIMKWARCAB",
+      "description": "Sistem Informasi Manajemen Kwartir Cabang Gerakan Pramuka Terpadu",
+      "kwarcabName": "Kwartir Cabang Kota Depok",
+      "kwarcabNomor": "09.22",
+      "kwardaName": "Kwartir Daerah Jawa Barat",
+      "motto": "Satyaku Kudarmakan, Darmaku Kubaktikan",
+      "address": "Gedung Pramuka Kwarcab Kota Depok, Balai Kota Depok, Jl. Margonda Raya No. 54, Kec. Pancoran Mas, Kota Depok 16431",
+      "email": "pusinfo@pramukakotadepok.or.id",
+      "phone": "021-7756123",
+      "whatsapp": "0812-1922-0922",
+      "website": "https://pramukakotadepok.or.id",
+      "socials": {
+        "instagram": "@pramukakotadepok",
+        "youtube": "Pramuka Kwarcab Kota Depok",
+        "facebook": "Kwartir Cabang Gerakan Pramuka Kota Depok"
+      },
+      "footerText": "© 2026 Kwartir Cabang Kota Depok Kwartir Daerah Jawa Barat. Seluruh Hak Cipta Dilindungi.",
+      "helpNotice": "Pusat Bantuan & Layanan Administrasi Pramuka Kwarcab: Senin - Jumat 08.00 - 16.00 WIB",
+      "serviceNotice": "Layanan Pengajuan KTA Digital, Her-registrasi Gudep, dan Rekomendasi E-Garuda Tanpa Pungutan Biaya.",
+      "logos": {
+        "primary": "/assets/logo-pramuka.svg",
+        "secondary": "/assets/logo-wosm.svg",
+        "favicon": "/assets/favicon-pramuka.svg",
+        "appIcon": "/assets/icon-pramuka.svg",
+        "stamp": "/assets/stempel-kwarcab.svg",
+        "signature": "/assets/ttd-kakwarcab.svg"
+      },
+      "colors": {
+        "primary": "#5D4037",
+        "primaryHover": "#4E342E",
+        "secondary": "#2E7D32",
+        "accent": "#F59E0B",
+        "background": "#FAF8F5",
+        "surface": "#FFFFFF"
+      },
+      "isDemoMode": true,
+      "activeFeatures": {
+        "garudaTracker": true,
+        "skuGamified": true,
+        "gudepMap": true,
+        "pusdiklatcab": true,
+        "sakaKrida": true,
+        "eventRegistration": true
+      },
+      "sampleDataLoaded": true,
+      "sampleDataHidden": false
+    }
+  },
+  {
+    "id": "ver-1794023898386",
+    "version": 10,
+    "timestamp": "2026-11-07T03:58:18.386Z",
+    "author": "Super Admin Kwarcab",
+    "summary": "Menyembunyikan data contoh dari publik & statistik",
+    "configSnapshot": {
+      "appName": "SIM-KWARCAB",
+      "appShortName": "SIMKWARCAB",
+      "description": "Sistem Informasi Manajemen Kwartir Cabang Gerakan Pramuka Terpadu",
+      "kwarcabName": "Kwartir Cabang Kota Depok",
+      "kwarcabNomor": "09.22",
+      "kwardaName": "Kwartir Daerah Jawa Barat",
+      "motto": "Satyaku Kudarmakan, Darmaku Kubaktikan",
+      "address": "Gedung Pramuka Kwarcab Kota Depok, Balai Kota Depok, Jl. Margonda Raya No. 54, Kec. Pancoran Mas, Kota Depok 16431",
+      "email": "pusinfo@pramukakotadepok.or.id",
+      "phone": "021-7756123",
+      "whatsapp": "0812-1922-0922",
+      "website": "https://pramukakotadepok.or.id",
+      "socials": {
+        "instagram": "@pramukakotadepok",
+        "youtube": "Pramuka Kwarcab Kota Depok",
+        "facebook": "Kwartir Cabang Gerakan Pramuka Kota Depok"
+      },
+      "footerText": "© 2026 Kwartir Cabang Kota Depok Kwartir Daerah Jawa Barat. Seluruh Hak Cipta Dilindungi.",
+      "helpNotice": "Pusat Bantuan & Layanan Administrasi Pramuka Kwarcab: Senin - Jumat 08.00 - 16.00 WIB",
+      "serviceNotice": "Layanan Pengajuan KTA Digital, Her-registrasi Gudep, dan Rekomendasi E-Garuda Tanpa Pungutan Biaya.",
+      "logos": {
+        "primary": "/assets/logo-pramuka.svg",
+        "secondary": "/assets/logo-wosm.svg",
+        "favicon": "/assets/favicon-pramuka.svg",
+        "appIcon": "/assets/icon-pramuka.svg",
+        "stamp": "/assets/stempel-kwarcab.svg",
+        "signature": "/assets/ttd-kakwarcab.svg"
+      },
+      "colors": {
+        "primary": "#5D4037",
+        "primaryHover": "#4E342E",
+        "secondary": "#2E7D32",
+        "accent": "#F59E0B",
+        "background": "#FAF8F5",
+        "surface": "#FFFFFF"
+      },
+      "isDemoMode": true,
+      "activeFeatures": {
+        "garudaTracker": true,
+        "skuGamified": true,
+        "gudepMap": true,
+        "pusdiklatcab": true,
+        "sakaKrida": true,
+        "eventRegistration": true
+      },
+      "sampleDataLoaded": true,
+      "sampleDataHidden": true
+    }
+  }
+]

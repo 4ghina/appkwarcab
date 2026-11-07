@@ -1,0 +1,8 @@
+{
+  "name": "KWARCAB SuperApp re4ghina",
+  "description": "Sistem Informasi Manajemen Kwartir Cabang Gerakan Pramuka - Mobile-First Community SuperApp dengan E-KTA Digital, E-SKU gamified, Seleksi E-Garuda, Peta Potensi Gudep, Pusdiklatcab, dan Verifikasi Berjenjang.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
