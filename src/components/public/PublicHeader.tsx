@@ -9,6 +9,7 @@ interface PublicHeaderProps {
   onOpenVerifier: () => void;
   onOpenPortal: () => void;
   onOpenAuth: () => void;
+  onNavigateToPeta?: () => void;
 }
 
 export const PublicHeader: React.FC<PublicHeaderProps> = ({
@@ -16,7 +17,8 @@ export const PublicHeader: React.FC<PublicHeaderProps> = ({
   config,
   onOpenVerifier,
   onOpenPortal,
-  onOpenAuth
+  onOpenAuth,
+  onNavigateToPeta,
 }) => {
   return (
     <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-stone-200/90 shadow-2xs">
@@ -42,6 +44,15 @@ export const PublicHeader: React.FC<PublicHeaderProps> = ({
 
         <nav className="hidden md:flex items-center gap-6 text-xs font-bold text-stone-700">
           <a href="#beranda" className="text-[#5D4037] hover:text-[#3E2723]">Beranda</a>
+          <button
+            onClick={onNavigateToPeta || (() => {
+              document.getElementById('peta-potensi-preview')?.scrollIntoView({ behavior: 'smooth' });
+            })}
+            className="hover:text-[#5D4037] flex items-center gap-1 font-extrabold text-amber-900 cursor-pointer"
+          >
+            <span>Peta Potensi</span>
+            <span className="px-1.5 py-0.2 bg-amber-100 text-amber-900 text-[9px] rounded-full">Tematik</span>
+          </button>
           <a href="#kegiatan" className="hover:text-[#5D4037]">Kegiatan</a>
           <a href="#direktori" className="hover:text-[#5D4037]">Direktori Gudep</a>
           <a href="#berita" className="hover:text-[#5D4037]">Berita</a>

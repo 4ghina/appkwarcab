@@ -9,7 +9,7 @@ import { INITIAL_SKU_ITEMS_BY_GOLONGAN } from './data/mockData';
 import { AppProvider, useApp } from './context/AppContext';
 import { useAppNavigation } from './components/app/useAppNavigation';
 import { useScoutAppState } from './components/app/useScoutAppState';
-import { PublicWebsiteView, KwarranPublicView, GudepPublicView } from './components/app/AppPublicRouteImports';
+import { PublicWebsiteView, KwarranPublicView, GudepPublicView, ThematicMapPageView } from './components/app/AppPublicRouteImports';
 import { PublicVerifierRouteView, PublicMasukRouteView, AdminRouteView, PortalUnauthPrompt } from './components/app/AppPublicRoutes';
 import { submitSkuForTestingAction, submitSkkForApprovalAction, reviewSubmissionAction } from './components/app/appActionHandlers';
 import { submitAffiliationAction, approveVerificationAction, rejectVerificationAction } from './components/app/appVerificationHandlers';
@@ -17,7 +17,10 @@ import { AppDesktopView, AppMobileView } from './components/app/AppLayoutViews';
 
 function renderPublicRoute(nav: any, state: any, onLogin: (u: UserProfile) => void) {
   if (nav.currentRoute === 'public') {
-    return <PublicWebsiteView currentUser={state.currentUser} events={state.eventsList} gudepList={state.gudepList} onOpenAuth={(r) => { if (r) nav.setReturnToUrl(r); nav.navigateTo('masuk'); }} onOpenPortal={() => nav.navigateTo('portal')} onOpenVerifier={() => nav.navigateTo('verifikasi')} onSelectKwarranDetail={(k) => nav.navigateTo('ranting', k)} onSelectGudepDetail={(g) => nav.navigateTo('gudep', g.id)} />;
+    return <PublicWebsiteView currentUser={state.currentUser} events={state.eventsList} gudepList={state.gudepList} onOpenAuth={(r) => { if (r) nav.setReturnToUrl(r); nav.navigateTo('masuk'); }} onOpenPortal={() => nav.navigateTo('portal')} onOpenVerifier={() => nav.navigateTo('verifikasi')} onNavigateToPeta={() => nav.navigateTo('peta')} onSelectKwarranDetail={(k) => nav.navigateTo('ranting', k)} onSelectGudepDetail={(g) => nav.navigateTo('gudep', g.id)} />;
+  }
+  if (nav.currentRoute === 'peta') {
+    return <ThematicMapPageView currentUser={state.currentUser} onBackToBeranda={() => nav.navigateTo('public')} onOpenVerifier={() => nav.navigateTo('verifikasi')} onOpenPortal={() => nav.navigateTo('portal')} onOpenAuth={() => nav.navigateTo('masuk')} />;
   }
   if (nav.currentRoute === 'ranting') return <KwarranPublicView kwarranName={nav.routeSlug || 'Pancoran Mas'} gudepList={state.gudepList} onBack={() => nav.navigateTo('public')} onSelectGudep={(g) => nav.navigateTo('gudep', g.id)} />;
   if (nav.currentRoute === 'gudep') {

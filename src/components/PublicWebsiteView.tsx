@@ -11,6 +11,7 @@ interface PublicWebsiteViewProps {
   onOpenAuth: (redirectPath?: string) => void;
   onOpenPortal: () => void;
   onOpenVerifier: () => void;
+  onNavigateToPeta?: () => void;
   onSelectGudepDetail?: (gudep: GudepData) => void;
   onSelectKwarranDetail?: (kwarranName: string) => void;
 }
@@ -37,6 +38,7 @@ export const PublicWebsiteView: React.FC<PublicWebsiteViewProps> = (p) => {
         onOpenVerifier={p.onOpenVerifier}
         onOpenPortal={p.onOpenPortal}
         onOpenAuth={() => p.onOpenAuth()}
+        onNavigateToPeta={p.onNavigateToPeta}
       />
       <PublicWebsiteMainContent
         {...p}

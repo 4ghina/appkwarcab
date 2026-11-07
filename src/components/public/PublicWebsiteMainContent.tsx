@@ -3,6 +3,8 @@ import { UserProfile, CabangEvent, GudepData } from '../../types/scout';
 import { HeroCarousel } from '../HeroCarousel';
 import { PublicQuickAccess } from './PublicQuickAccess';
 import { PublicInfographicSection } from './infographic/PublicInfographicSection';
+import { PotensiMapPreviewSection } from '../map/thematic/PotensiMapPreviewSection';
+import { RealtimeDemographicsMap } from '../map/RealtimeDemographicsMap';
 import { PublicVisionBenefits } from './PublicVisionBenefits';
 import { PublicAgendaSection } from './PublicAgendaSection';
 import { PublicGudepDirectory } from './PublicGudepDirectory';
@@ -17,6 +19,7 @@ interface PublicWebsiteMainContentProps {
   onOpenAuth: (redirectPath?: string) => void;
   onOpenPortal: () => void;
   onOpenVerifier: () => void;
+  onNavigateToPeta?: () => void;
   onSelectGudepDetail?: (gudep: GudepData) => void;
   onSelectKwarranDetail?: (kwarranName: string) => void;
   onSlideClick: (slide: { id: string }) => void;
@@ -27,10 +30,18 @@ export const PublicWebsiteMainContent: React.FC<PublicWebsiteMainContentProps> =
     <section id="beranda" className="pt-1">
       <HeroCarousel onSlideClick={p.onSlideClick} />
     </section>
-    <PublicQuickAccess onOpenVerifier={p.onOpenVerifier} />
+    <PublicQuickAccess onOpenVerifier={p.onOpenVerifier} onNavigateToPeta={p.onNavigateToPeta} />
     <PublicInfographicSection />
-    <PublicVisionBenefits />
 
+    <section id="peta-potensi-preview" className="scroll-mt-20">
+      <PotensiMapPreviewSection onExploreFullMap={p.onNavigateToPeta || (() => {})} />
+    </section>
+
+    <section id="peta-demografi" className="scroll-mt-20">
+      <RealtimeDemographicsMap />
+    </section>
+
+    <PublicVisionBenefits />
     <PublicAgendaSection events={p.events} onOpenAuth={p.onOpenAuth} onOpenPortal={p.onOpenPortal} isLoggedIn={Boolean(p.currentUser)} />
     <PublicGudepDirectory gudepList={p.gudepList} onSelectGudepDetail={p.onSelectGudepDetail} onSelectKwarranDetail={p.onSelectKwarranDetail} />
     <PublicNewsSection />

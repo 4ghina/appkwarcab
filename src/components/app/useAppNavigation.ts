@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 export function getInitialRoute(): string {
   if (typeof window !== 'undefined') {
     const path = window.location.pathname;
+    if (path.startsWith('/peta')) return 'peta';
     if (path.startsWith('/portal')) return 'portal';
     if (path.startsWith('/masuk')) return 'masuk';
     if (path.startsWith('/admin')) return 'admin';
@@ -32,6 +33,7 @@ export function useAppNavigation() {
     if (slug !== undefined) setRouteSlug(slug);
     let path = '/';
     if (route === 'public') path = '/';
+    else if (route === 'peta') path = '/peta';
     else if (route === 'portal') path = '/portal';
     else if (route === 'masuk') path = '/masuk';
     else if (route === 'admin') path = '/admin';
@@ -47,7 +49,8 @@ export function useAppNavigation() {
   useEffect(() => {
     const handlePopState = () => {
       const path = window.location.pathname;
-      if (path.startsWith('/portal')) setCurrentRoute('portal');
+      if (path.startsWith('/peta')) setCurrentRoute('peta');
+      else if (path.startsWith('/portal')) setCurrentRoute('portal');
       else if (path.startsWith('/masuk')) setCurrentRoute('masuk');
       else if (path.startsWith('/admin')) setCurrentRoute('admin');
       else if (path.startsWith('/ranting/')) {

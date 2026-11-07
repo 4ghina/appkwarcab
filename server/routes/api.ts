@@ -8,6 +8,8 @@ import { rfidRouter } from './rfidRoutes';
 import { infographicRouter } from './infographicRoutes';
 import { membershipRouter } from './membershipRoutes';
 import { sampleDataRouter } from './sampleDataRoutes';
+import { mapRouter } from './mapRoutes';
+import { thematicMapRouter } from './thematicMapRoutes';
 
 export const apiRouter = Router();
 
@@ -21,3 +23,5 @@ apiRouter.use(rfidRouter);
 apiRouter.use(infographicRouter);
 apiRouter.use(membershipRouter);
 apiRouter.use(sampleDataRouter);
+apiRouter.use(mapRouter);
+apiRouter.use(thematicMapRouter);

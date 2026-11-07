@@ -15,6 +15,19 @@ export const GudepInfoPanel: React.FC<{ gudep: GudepData }> = ({ gudep }) => (
         <strong className="text-stone-900 text-sm font-bold">{gudep.pembina || 'Kak Pembina Mahir'}</strong>
       </div>
       <div className="flex items-center gap-2 pt-2 border-t border-stone-100"><MapPin className="w-4 h-4 text-stone-400 shrink-0" /><span>{gudep.alamat}</span></div>
+      {gudep.koordinat && (
+        <div className="flex items-center justify-between text-[11px] text-stone-500 bg-stone-50 p-2 rounded-xl border border-stone-200/60 font-mono">
+          <span>GPS: {gudep.koordinat.lat}, {gudep.koordinat.lng}</span>
+          <a
+            href={`https://www.google.com/maps/search/?api=1&query=${gudep.koordinat.lat},${gudep.koordinat.lng}`}
+            target="_blank"
+            rel="noreferrer"
+            className="text-emerald-700 font-bold hover:underline"
+          >
+            Buka Peta Google
+          </a>
+        </div>
+      )}
       <div className="flex items-center gap-2"><Phone className="w-4 h-4 text-stone-400 shrink-0" /><span>{gudep.telepon || '(021) 775-1234'}</span></div>
       <div className="flex items-center gap-2"><Mail className="w-4 h-4 text-stone-400 shrink-0" /><span>{gudep.email || 'gudep@sekolah.sch.id'}</span></div>
     </div>
